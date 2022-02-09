@@ -93,9 +93,9 @@ npm run init-db
 
 # Running tests
 
-1. Project and the required libraries should be installed. If not, see above in the installment section.
+**1. Project and the required libraries should be installed. If not, see above in the installment section.**
 
-2. To run the tests for the database and the API, run:
+**2. To run the tests for the database and the API, run:**
 
 ```
 npm run test-api
