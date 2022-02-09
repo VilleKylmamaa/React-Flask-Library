@@ -70,8 +70,6 @@ npm run start-all
 ```
 
 
-**2. The API is now running in localhost:5000.**
-
 The Flask API will be running in: 
 
 >http://localhost:5000/api/
@@ -82,7 +80,7 @@ The React client (opens automatically) will be running in:
 
 
 
-**3. To reset the database with the default values, run:**
+**2. If you with to reset the database with the default values, run:**
 
 ```
 npm run init-db
