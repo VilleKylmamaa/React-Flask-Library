@@ -95,4 +95,6 @@ The React client (opens automatically) will be running in:
 npm run test-api
 ```
 
+Frontend tests are not implemented.
+
 
