@@ -61,7 +61,7 @@ npm install
 
 
 
-# Running
+# Running the Application
 
 **1. Run the application (both frontend and backend) in localhost with a single command:**
 
