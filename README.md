@@ -60,8 +60,7 @@ npm install
 <br />
 
 
-
-# Running the Application
+# Running
 
 **1. Run the application (both frontend and backend) in localhost with a single command:**
 
@@ -69,15 +68,13 @@ npm install
 npm run start-all
 ```
 
-
-The Flask API will be running in: 
-
->http://localhost:5000/api/
-
 The React client (opens automatically) will be running in:
 
 >http://localhost:3000/
 
+The Flask API will be running in: 
+
+>http://localhost:5000/api/
 
 
 **2. If you with to reset the database with the default values, run:**
@@ -89,7 +86,7 @@ npm run init-db
 <br />
 
 
-# Running tests
+# Tests
 
 **1. The project and the required libraries should be installed. If not, see above in the installment section.**
 
