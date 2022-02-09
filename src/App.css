@@ -71,9 +71,7 @@ label {
 /* Book list */
 
 .bookList {
-  border-top: 1px solid lightgray;
-  border-right: 1px solid gray;
-  border-left: 1px solid gray;
+  border: 1px solid gray;
   text-align: center;
 }
 
