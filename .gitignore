@@ -22,7 +22,8 @@ venv
 .env.production.local
 __pycache__
 api.egg-info
-instance
+/instance
+development.db
 
 npm-debug.log*
 yarn-debug.log*
