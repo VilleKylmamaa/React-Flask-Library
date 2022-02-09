@@ -96,6 +96,6 @@ npm run init-db
 npm run test-api
 ```
 
-Frontend tests are not implemented.
+Tests for the frontend are not implemented.
 
 
