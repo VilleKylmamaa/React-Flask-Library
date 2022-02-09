@@ -1,21 +1,21 @@
+
 .App {
-  text-align: center;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header {
+  border-radius: 0px 0px 10px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +24,86 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+
+/* Form */
+
+form {
+  margin-right: 10%;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px 12px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  display: block;
+}
+
+textarea {
+  padding-bottom: 50px;
+}
+
+button {
+  margin-right: 6px;
+}
+
+label {
+  display: block;
+}
+
+
+/* Book list */
+
+.bookList {
+  border-top: 1px solid lightgray;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  text-align: center;
+}
+
+.bookItem {
+  padding: 1em 0.5em 0em 0.5em;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.bookItem h2 {
+  margin-top: 0;
+}
+
+.bookTitle {
+  margin-bottom: 0;
+}
+
+.bookAuthor {
+  font-style: italic;
+}
+
+.bookDescription {
+  margin-bottom: 20px;
+}
+
+.active {
+  color: rgb(240, 77, 1);
+  background-color: rgb(234, 249, 255);
+}
+
+.errorMessage {
+  color: Red;
 }
