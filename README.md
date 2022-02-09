@@ -13,7 +13,7 @@ Backend: Flask
 # Installation and Running
 
 
-**1. If not already installed, install** [**NodeJs**](https://nodejs.org/en/download/), [**Python**](https://www.python.org/downloads/) **and** [**Pip**](https://pypi.org/project/pip/). If you encounter problems with installation and running, try updating these 3 to the latest versions.
+**1. If not already installed, install** [**NodeJs**](https://nodejs.org/en/download/), [**Python**](https://www.python.org/downloads/) **and** [**Pip**](https://pypi.org/project/pip/). If you encounter problems with installation or running, try updating these 3 to the latest versions.
 
 
 **2. (Optional) Use** [**virtual environment**](https://docs.python.org/3/tutorial/venv.html).
@@ -39,15 +39,15 @@ source venv/bin/activate
 ```
 
 
-**3. Install the project and required libraries (Flask, Flask-RESTful, SQLAlchemy, Flask-SQLAlchemy, etc.).**
+**3. Install the required libraries for the Flask backend.**
 
-In the root folder, where the requirements.txt file is located, run the following command in command prompt:
+In the root folder, where the requirements.txt file is located, run the following in command prompt:
  
  ```
  pip install -r requirements.txt
  ```
  
- This alone should also install the project through setup.py. If not, try updating pip to the newest version.
+This should also setup the project through setup.py (in the api folder). If not, try updating pip to the newest version and running the command again.
  
 
 **4. Install React for the project:**
@@ -57,7 +57,7 @@ npm install
 ```
 
 
-**5. Run the Flask backend and React frontend in localhost with a single command:**
+**5. Run the application (both frontend and backend) in localhost with a single command:**
 
 ```
 npm run start-all
