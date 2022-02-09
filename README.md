@@ -10,7 +10,7 @@ Backend: Flask
 <br />
 
 
-# Installation and Running
+# Installation
 
 
 **1. If not already installed, install** [**NodeJs**](https://nodejs.org/en/download/), [**Python**](https://www.python.org/downloads/) **and** [**Pip**](https://pypi.org/project/pip/). If you encounter problems with installation or running, try updating these 3 to the latest versions.
@@ -57,21 +57,20 @@ npm install
 ```
 
 
-**5. Run the application (both frontend and backend) in localhost with a single command:**
+<br />
+
+
+
+# Running
+
+**1. Run the application (both frontend and backend) in localhost with a single command:**
 
 ```
 npm run start-all
 ```
 
 
-**6. To reset the database with the default values, run:**
-
-```
-npm run init-db
-```
-
-
-**6. The API is now running in localhost:5000.**
+**2. The API is now running in localhost:5000.**
 
 The Flask API will be running in: 
 
@@ -81,6 +80,13 @@ The React client (opens automatically) will be running in:
 
 >http://localhost:3000/
 
+
+
+**3. To reset the database with the default values, run:**
+
+```
+npm run init-db
+```
 
 <br />
 
