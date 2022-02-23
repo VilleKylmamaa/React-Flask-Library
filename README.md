@@ -78,7 +78,7 @@ The Flask API will be running in:
 >http://localhost:5000/api/
 
 
-**2. If you with to reset the database with the default values, run:**
+**2. If you wish to reset the database with the default values, run:**
 
 ```
 .\init-db.bat
