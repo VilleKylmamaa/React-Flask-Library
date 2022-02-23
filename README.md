@@ -53,7 +53,7 @@ This should also setup the project through setup.py (in the api folder). If not,
 **4. Install React for the project in the frontend folder:**
 
 ```
-cd frontend // or open a new command prompt in the frontend folder
+cd frontend
 npm install
 ```
 
