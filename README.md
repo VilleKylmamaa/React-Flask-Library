@@ -63,7 +63,7 @@ npm install
 
 # Running
 
-**1. Run the application (both frontend and backend) in localhost with a single command:**
+**1. In the root folder, run the application (both frontend and backend) in localhost with a single command:**
 
 ```
 .\start-all.bat
