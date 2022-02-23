@@ -13,8 +13,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "start-all": "concurrently \"react-scripts start\" \"cd../backend & start-backend.bat\"",
+    "start": "cd ./frontend & react-scripts start",
+    "start-all": "concurrently \"cd ./frontend & react-scripts start\" \"cd../backend & start-backend.bat\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test-api": "run-tests.bat",

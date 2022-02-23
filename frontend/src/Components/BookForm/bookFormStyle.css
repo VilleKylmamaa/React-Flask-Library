@@ -1,0 +1,26 @@
+form {
+    margin-right: 10%;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px 12px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  textarea {
+    padding-bottom: 50px;
+  }
+  
+  button {
+    margin-right: 6px;
+  }
+  
+  label {
+    display: block;
+  }
+
+

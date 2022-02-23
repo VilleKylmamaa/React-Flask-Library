@@ -1,0 +1,39 @@
+.App {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.App-header {
+  border-radius: 0px 0px 10px 10px;
+}
+
+section {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
